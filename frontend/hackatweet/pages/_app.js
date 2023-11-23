@@ -1,7 +1,5 @@
 import '../styles/globals.css';
 import Head from 'next/head';
-import Header from '../components/Header';
-
 import { Provider } from 'react-redux';
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 
@@ -31,7 +29,7 @@ function App({ Component, pageProps }) {
         <Head>
           <title>Hackatweet</title>
         </Head>
-        <Header />
+
         <Component {...pageProps} />
       </PersistGate>
     </Provider>

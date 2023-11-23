@@ -1,10 +1,16 @@
-.main {
+/* .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   padding: 4rem 0;
+} */
+.containerHome {
+  display: grid;
+  border: 1px #e94653 solid;
+  grid-template-rows: repeat(4, 200px);
+  grid-template-columns: repeat(4, 200px);
 }
 
 .title {
@@ -17,6 +23,8 @@
   text-decoration: none;
 }
 
-.title a:hover, .title a:focus, .title a:active {
+.title a:hover,
+.title a:focus,
+.title a:active {
   text-decoration: underline;
 }
