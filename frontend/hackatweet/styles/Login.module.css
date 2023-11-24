@@ -1,0 +1,37 @@
+.loginContainair {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.containairGauche {
+    background-image: url("../public/fonds.png");
+    width: 40vw;
+    height: 100vh;
+
+}
+
+.containairDroite {
+    width: 60vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/* h1{
+
+}
+
+button{
+
+} */
+
+.bookmarkIcon {
+    cursor: pointer;
+}
+
+.bookmarkIcon:hover {
+    opacity: 0.6;
+}
